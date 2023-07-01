@@ -15,7 +15,7 @@ function celebrateStyler(reason) {
       console.log("%cCongrats on the title!", fontStyle);
    }
    else {
-      console.log("Unknown reason:", reason);
+      console.log("Unknown reason is thalavedhana:", reason);
    }
 }
 
