@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html,body{
+    overflow:auto;
+    background-color: #F2EDED;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    cursor: none;
+}
+
+
+.container-fluid{
+    padding: 0%;
+}
+.nabar-nav{
+    margin-left: 10px !important;
+
+}
+.bg{
+    background-color: black;
+}
+.navbar-dark .navbar-toggler-icon{
+    border-color: aliceblue;
+}
+.text-white{
+    font-family: poppins;
+    font-size: 25px !important;
+    padding-right: 15px;
+}
+.container-fluid{
+    height: 100%;
+}
+.d-flex{
+    display: flex;
+    padding: 0 !important;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.getintouch{
+    margin-right : 5px;
+}
+.centered-element {
+    flex-grow: 1;
+    text-align: center;
+  }
+  .logo-container{
+    flex-grow: 1;
+  }
+.logo{
+ display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-toggler{
+    padding-left:0;
+    padding-right: 0;
+}
+.navbar-toggler{
+    background-color: beige;
+    border-color:white ;
+   
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    position: relative;
+  overflow: hidden;
+}
+.bgimage{
+   width:100%;
+   height: 90vh;
+   filter: brightness(30%);
+}
+.overlay{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align:center;
+    width: 100%;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay h1{
+    font-size: 40px;
+}
+.insta{
+    height: 300px;
+    width: 50px;
+}
+/* .back-circle{
+    position: relative;
+    z-index: 0;
+  
+} */
+.circle{
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    bottom: -1px;
+    right: 22vh;
+    background-color: #FFE175;
+    border-radius: 50%;
+    display: inline-block;
+}
+.text-name{
+    position: relative;
+    top: 200px;
+    left: 120px;
+    z-index: 1;
+    
+}
+.sufix{
+    font-weight: lighter;
+}
+.sufix, .name{
+    font-size: 50px;
+}
+.name{
+    margin-bottom: 0;
+}
+.line-name{
+    display: flex;
+    width: 30%;
+    height: .3vh;
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.about-1, .about-2, .about-3, .about-4, .about-5{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    width: 45%;
+}
+.about{
+    position: relative;
+    height:74vh;
+    display: block;
+}
+.ico{
+display: inline-block;
+position:absolute;
+z-index: 0;
+height: 60px;
+right: 30vh;
+top: 2vh;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+}
+.a{
+    margin-left: 25px;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    cursor: none;
+    
+}
+.behance{
+    width: 79px !important;
+}
+
+a:hover ~ .cursor{
+    transform: scale(8);
+    width: 40px;
+}
+
+.myself{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 23vh;
+}
+
+.service{
+    display: inline-block;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: fit-content;
+}
+.servi{
+    color: white;
+    position: relative;
+    top: 10px;
+    bottom: 2px;
+
+   
+}
+.cursor{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 9999;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .navbar-collapse{
+        justify-content: flex-start !important;
+    }
+    .overlay h1 {
+      font-size: 30px;
+    }
+    .bgimage{
+        height: 60vh;
+    }
+    .back-circle{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+    }
+    .circle{
+        position: relative;
+        height: 400px;
+        width: 400px;
+        top: 570px;
+        left:0%;
+        background-color: #FFE175;
+        border-radius: 50%;
+        display: inline-block;
+        z-index: 0;
+    }
+    .line-name{
+        display: flex;
+        width: 50%;
+        height: .4vh;
+        border-radius: 25px;
+    }
+    .about-1, .about-2, .about-3, .about-4, .about-5{
+        padding: 0;
+        margin: 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+        width: 98%;
+
+    } 
+    .text-name{
+        position: relative;
+        top: 5px;
+        left: 20px;
+    }     
+    .getintouch{
+        margin-right : 10px !important;
+    }
+  
+  .ico{
+    display: inline-block;
+    position:absolute;
+    z-index: 0;
+    height: 60px;
+    right: 15%;
+    top: 320px;
+    scale: 0.7;
+    }
+    .insta{
+        height: auto;
+    }
+    .a{
+        margin-left: 25px;
+        text-decoration: none;
+    }
+    .myself{
+        position: absolute;
+        display:inline;
+        z-index: 1;
+        top: 343px;
+        left: 30%;
+        transform: translateX(-50%);
+        scale: 0.8;
+    }
+}
+    
+  @media only screen and (max-width: 400px) {
+    .about-1, .about-2, .about-3, .about-4, .about-5{
+        padding: 0;
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 400;
+        width: 98%;
+    }
+    .navbar-collapse{
+        justify-content: flex-start !important;
+    }
+    .overlay h1 {
+      font-size: 30px;
+    }
+    .bgimage{
+        height: 60vh;
+    }
+    .back-circle{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle{
+        position: relative;
+        height: 200px;
+        width: 200px;
+        top: 100px;
+        left: 0%;
+        background-color: #FFE175;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .line-name{
+        display: flex;
+        width: 50%;
+        height: .4vh;
+        border-radius: 25px;
+    }
+    .text-name{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }  
+    .getintouch{
+        margin-right : 10px !important;
+    }
+    
+
+
+  }
