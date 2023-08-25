@@ -296,6 +296,9 @@ a:hover ~ .cursor{
         transform: translateX(-50%);
         scale: 0.8;
     }
+    .cursor{
+        display: none;
+    }
 }
     
   @media only screen and (max-width: 400px) {
@@ -344,6 +347,9 @@ a:hover ~ .cursor{
     }  
     .getintouch{
         margin-right : 10px !important;
+    }
+    .cursor{
+        display: none;
     }
     
 
