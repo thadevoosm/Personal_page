@@ -113,20 +113,20 @@
 
   <!--form-->
   <div class="form-div">
-  <form>
+  <form action="https://formsubmit.co/thadevoosmbiju@gmail.com" method="POST">
   <fieldset>
-    <input class="form-name" placeholder="Name" type="text"
+    <input class="form-name" placeholder="Name" type="text" name="name"
     tabindex="1" required autofocus>
   </fieldset>
   <fieldset>
-    <input class="form-mail" placeholder="E-mail" type="text"
+    <input class="form-mail" placeholder="E-mail" type="text" name="email"
     tabindex="1" required autofocus>
   </fieldset>
   <fieldset>
     <input class="form-num" placeholder="Mobile" type="number"
     tabindex="1" required autofocus>
   </fieldset>
-    <select class="form-reason" name="country">
+    <select class="form-reason" name="country" name="_subject">
         <option value="" disabled selected>What's it we wanna talk about?</option>
         <option value="webd">Web Development</option>
         <option value="uid">UI Desiging</option>
@@ -136,8 +136,9 @@
 <textarea class="form-message" placeholder="type your message" name="message" rows="3" required></textarea>
 <br>
 <div class="but-div">
-<button class="sent-form">sent</button>
+<button class="sent-form" type="submit">sent</button>
 </div>
+<input type="hidden" name="_captcha" value="false">
 </form>
 </div>
 <!--end of form-->
@@ -186,7 +187,8 @@
 <p class="rights">All rights recived by Thadevoos Biju</p>
 </div>
 
-
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 <script src="js/script.js"></script>
 </body>
 </html>
