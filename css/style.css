@@ -196,6 +196,7 @@ a:hover ~ .cursor{
     background-color: rgba(0, 0, 0, 1);
     width: 100%;
     height: fit-content;
+   
 }
 .servi{
     color: white;
@@ -217,6 +218,37 @@ a:hover ~ .cursor{
     pointer-events: none;
     mix-blend-mode: difference;
     z-index: 9999;
+}
+#serv{
+    z-index: 90;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 1);
+}
+.service{
+    margin-top: 80px;
+}
+.servi{
+   margin-bottom: 0;
+    text-align: center;
+    top: 80px;
+    bottom: 0;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 1);
+}
+.des-service{
+    position: relative;
+    text-align: center;
+    color:#fff;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: fit-content;
+}
+.des-service>p{
+    
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 991px) {
@@ -299,6 +331,10 @@ a:hover ~ .cursor{
     .cursor{
         display: none;
     }
+    #serv{
+        z-index: 90;
+        
+        }
 }
     
   @media only screen and (max-width: 400px) {
