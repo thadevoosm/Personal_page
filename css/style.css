@@ -271,6 +271,66 @@ a:hover ~ .cursor{
     font-weight: 600;
     margin-bottom: 0;
 }
+.right-section,.left-section{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 600px;
+}
+.left-section{
+    
+    background-color: #ffffff;
+    
+}
+.right-section{
+   
+    background-color: #000000;
+    
+}
+.response-head{
+    font-weight: 500;
+    font-size: 3rem;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.form-div{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+ 
+}
+.form-name, .form-num, .form-mail, .form-reason, .form-message{
+    height: 3.13rem;
+    margin-top: 1rem;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-num::-webkit-inner-spin-button,
+.form-num::-webkit-outer-spin-button{
+    appearance: none;
+    -webkit-appearance: none;
+}
+.sent-form{
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #fff;
+}
+.but-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 @media only screen and (max-width: 991px) {
 
