@@ -254,16 +254,22 @@ a:hover ~ .cursor{
     color: #fff;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 .line1{
-    align-items: center;
-    display: flex;
-    width: 30%;
+    display: inline-block;
+    position: relative;
+    width: 250px;
     height: .3vh;
     background-color:white;
     border-radius: 25px;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+.tabin>p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 991px) {
