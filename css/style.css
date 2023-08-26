@@ -250,6 +250,21 @@ a:hover ~ .cursor{
     font-size: 20px;
     font-weight: 400;
 }
+.tabin{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+.line1{
+    align-items: center;
+    display: flex;
+    width: 30%;
+    height: .3vh;
+    background-color:white;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
 @media only screen and (max-width: 991px) {
 
