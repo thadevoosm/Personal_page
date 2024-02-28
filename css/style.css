@@ -8,7 +8,26 @@ html,body{
     height: 100%;
     cursor: none;
 }
-
+a{
+   cursor: none; 
+}
+.type-cursor {
+    animation: blink 0.7s infinite;
+    height: 38px;
+    display: inline-block;
+    width: 2px;
+    color: black;
+    background-color: black;
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
 
 .container-fluid{
     padding: 0%;
@@ -131,6 +150,7 @@ html,body{
 }
 .name{
     margin-bottom: 0;
+    height: 75px;
 }
 .line-name{
     display: flex;
@@ -461,11 +481,47 @@ a:hover ~ .cursor{
     }
     #serv{
         z-index: 90;
+        margin-top: 15rem;
         
-        }
+    }
+    .service{
+        margin-top: 0;
+    }
+    .left-section{
+        float: none;
+        width: 100%;
+    }
+    .right-section{
+        float: none;
+        width: 100%;
+        padding-top: 2rem;
+        height: 625px;
+    }
+    .con-foot img{
+        height: 30px;
+        width: auto;
+        margin-left: 0;
+    }
+    .con-foot span{
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+    }
+    .con-foot .medium{
+        width: 30px;
+        height: auto;
+    }
+    .rights{
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        transform: translateX(0%);
+        margin-left: 0;
+        left: 0;
+    }
 }
     
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     .about-1, .about-2, .about-3, .about-4, .about-5{
         padding: 0;
         margin: 0;
@@ -488,11 +544,14 @@ a:hover ~ .cursor{
         justify-content: center;
         align-items: center;
     }
+    .ico {
+        right: 20px;
+    }
     .circle{
         position: relative;
-        height: 200px;
-        width: 200px;
-        top: 100px;
+        height: 350px;
+        width: 350px;
+        top: 660px;
         left: 0%;
         background-color: #FFE175;
         border-radius: 50%;
@@ -515,7 +574,17 @@ a:hover ~ .cursor{
     .cursor{
         display: none;
     }
-    
+    .response-head{
+        font-size: 2.5rem
+    }
+    .form-name, .form-name, .form-num, 
+    .form-mail, .form-reason, 
+    .form-message {
+        width: 300px;
+    }
+    .con-foot{
+        gap: 0.5rem;
+    }
 
 
   }
